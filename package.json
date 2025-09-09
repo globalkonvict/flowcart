@@ -1,0 +1,16 @@
+{
+  "name": "flowcart-theme",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./assets/tailwind.css --minify",
+    "test": "echo 'No tests configured'",
+    "lint": "echo 'No linting configured'"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.13",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
+    "@tailwindcss/cli": "^4.1.13"
+  }
+}
