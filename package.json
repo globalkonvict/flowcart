@@ -1,0 +1,19 @@
+{
+  "name": "flowcart",
+  "version": "1.0.0",
+  "description": "**Fast. Accessible. Built to Convert.**",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i src/tailwind.css -o assets/critical.css --minify",
+    "test": "echo \"No tests\"",
+    "lint": "echo \"No lint\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}

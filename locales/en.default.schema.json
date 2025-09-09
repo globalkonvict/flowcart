@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "example": {
+      "name": "Example section",
+      "heading_label": "Heading",
+      "preset": "Example section"
+    }
+  },
+  "blocks": {
+    "text": {
+      "name": "Text block",
+      "label": "Text"
+    }
+  },
+  "theme": {
+    "settings": {
+      "general": {
+        "name": "General",
+        "background": "Background color"
+      }
+    }
+  }
+}

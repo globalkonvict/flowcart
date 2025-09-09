@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "example-section",
+      "blocks": {
+        "block-1": {"type": "text"}
+      },
+      "block_order": ["block-1"]
+    }
+  },
+  "order": ["main"]
+}
