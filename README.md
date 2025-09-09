@@ -41,10 +41,12 @@ It’s **mobile-first**, **WCAG-friendly**, and packed with **conversion-optimiz
 
 ## 📦 Installation  
 
-1. Clone/download this repository.  
-2. In your Shopify Admin, go to **Online Store > Themes > Add theme > Upload zip**.  
-3. Upload the Flowcart `.zip` file.  
-4. Customize using the Shopify editor.  
+1. Clone/download this repository.
+2. Install dependencies with `npm install`.
+3. Build the Tailwind CSS with `npm run build:css`.
+4. In your Shopify Admin, go to **Online Store > Themes > Add theme > Upload zip**.
+5. Upload the Flowcart `.zip` file.
+6. Customize using the Shopify editor.
 
 ---
 
