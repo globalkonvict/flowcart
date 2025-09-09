@@ -1,0 +1,15 @@
+{
+  "name": "flowcart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i src/critical.css -o assets/critical.css --minify",
+    "watch": "tailwindcss -i src/critical.css -o assets/critical.css --watch",
+    "lint": "echo 'No linting configured'",
+    "test": "echo 'No tests defined'"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}

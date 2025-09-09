@@ -1,0 +1,13 @@
+[
+  {
+    "name": "t:theme.settings.general.name",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background",
+        "label": "t:theme.settings.general.background",
+        "default": "#ffffff"
+      }
+    ]
+  }
+]

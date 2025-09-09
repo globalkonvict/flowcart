@@ -1,0 +1,30 @@
+{% doc %}
+  Renders a text block.
+{% enddoc %}
+
+<p class="text" {{ block.shopify_attributes }}>
+  {% if block.settings.text != blank %}
+    {{ block.settings.text }}
+  {% else %}
+    {{ 'blocks.text.default' | t }}
+  {% endif %}
+</p>
+
+{% stylesheet %}
+  .text {
+    margin: 0;
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "t:blocks.text.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "t:blocks.text.label"
+    }
+  ]
+}
+{% endschema %}
