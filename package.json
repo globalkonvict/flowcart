@@ -1,0 +1,16 @@
+{
+  "name": "flowcart",
+  "version": "1.0.0",
+  "description": "Flowcart Shopify theme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tailwindcss -i ./src/main.css -o ./assets/critical.css -m",
+    "lint": "echo \"No lint configured\"",
+    "test": "echo \"No tests specified\""
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}
