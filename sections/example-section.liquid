@@ -1,0 +1,38 @@
+{% comment %}
+  Example section with a heading and blocks container.
+{% endcomment %}
+
+<div class="example-section" {{ section.shopify_attributes }}>
+  {% if section.settings.heading != blank %}
+    <h2>{{ section.settings.heading }}</h2>
+  {% else %}
+    <h2>{{ 'sections.example.heading_default' | t }}</h2>
+  {% endif %}
+
+  <div>
+    {% content_for 'blocks' %}
+  </div>
+</div>
+
+{% stylesheet %}
+  .example-section {
+    padding: 2rem;
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "t:sections.example.name",
+  "blocks": [{ "type": "@theme" }],
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "t:sections.example.heading_label"
+    }
+  ],
+  "presets": [
+    { "name": "t:sections.example.preset" }
+  ]
+}
+{% endschema %}

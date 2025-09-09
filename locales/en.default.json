@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "example": {
+      "heading_default": "Welcome"
+    }
+  },
+  "blocks": {
+    "text": {
+      "default": "Text block"
+    }
+  }
+}
